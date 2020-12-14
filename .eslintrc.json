@@ -1,0 +1,29 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "prettier",
+    "prettier/react",
+    "eslint:recommended",
+    "react-app",
+    "react-app/jest"
+    // "plugin:react/recommended"
+  ],
+  "parser": "babel-eslint",
+  "plugins": ["react"],
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "rules": {
+    "react/jsx-uses-react": "off",
+    "react/react-in-jsx-scope": "off"
+  },
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true
+  }
+}
